@@ -1,40 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Arial", "Microsoft YaHei", sans-serif;
+}
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
+.navbar{
+    background-color: aliceblue;
+    padding:10px 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+.navbar .left{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+.navbar .navlogo{
+    font-size: 30px;
+    color: rgba(46, 202, 193, 1);
 }
-h1 {
-    color: #4CAF50;
-}
-.section {
-    margin-bottom: 20px;
-}
-.project {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.project:hover {
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.details {
-    display: none;
+.navbar ul{
+    list-style: none;/*未定义列表无符号*/
+    display:flex;
+    gap:10px;
+    
 }
