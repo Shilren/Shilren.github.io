@@ -10,9 +10,9 @@
 技术和时间有限导致过于简陋，信息展板参考企业官网。
 - 资料：
     需要准备的是一个icon
-    ![iconpic](./300_300icon.ico "shilren's zone")
+    ![iconpic](picture/icon.ico "shilren's zone")
     准备一个背景图
-    ![backgroundpic](./bule%20water.jpeg)
+    ![backgroundpic](./picture/bule%20water.jpeg)
 ---
 ## 原型图:
 ![prototype](picture/首页.png "prototype")
