@@ -1,13 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 0px;
     box-sizing: border-box;
     font-family: "Arial", "Microsoft YaHei", sans-serif;
 }
 
 .navbar{
     background-color: aliceblue;
-    padding:10px 15px;
+    margin: 0px;
+    border: 0px;
+    padding:0px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -16,14 +19,82 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding:5px 5px;
 }
 .navbar .navlogo{
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(46, 202, 193, 1);
 }
 .navbar ul{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
     list-style: none;/*未定义列表无符号*/
     display:flex;
-    gap:10px;
-    
+    gap:1px;
+}
+.navbar .home{
+    background-color: rgba(46, 202, 193, 1); 
+    border: 0px;
+    padding: 0px;
+    margin: 0px; 
+    line-height: 60px;
+    height: 60px; 
+    width: 70px;
+}
+.navbar ul li a{
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 0px 10px;
+    transition: 0.3s ease;
+}
+.navbar ul li:hover{
+    background-color: rgba(46, 202, 193, 1);
+}
+.navbar ul li a:hover{
+    color: aliceblue;
+}
+.main{
+    height: 680px;
+    background-image:url("./picture/bule\ water.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;/*文字按照队列的方式排列*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slogan{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.main p{
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+}
+.main a{
+    font-size: 22px;
+    font-weight: lighter;
+    margin-top: 40px;
+    padding: 8px 12px;
+    border: 1px grey solid;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.main a:hover{
+    color:rgba(46, 202, 193, 1);
 }
