@@ -16,8 +16,8 @@
 ---
 ## 问题备注
 1.icon无论如何调试都无法显示。（liveServer和github服务器，以及edge和chrome都无法显示，icon已裁减至16*16，采用最新语法，参MDN）  
-2.head标签中的内容跑到body里面，导致很多渲染不成功。已经修改为utf-8 with bom 或使用notepad++保存，仍然出现渲染标签错位的情况。（但并不影响视图）  
-> re2:thanks for this tutorial vedio.i've tried those codes, and everything seemed fine on the surface,but when the browser rendered, i found the <link> and <meta>  elements moved from the head to the body. i've tried to save file with utf-8 with bom,but still doesn't work, i don't know why.  
+2.head标签中的内容跑到body里面，导致很多渲染不成功。已经修改为utf-8 with bom 或使用notepad++保存，仍然出现渲染标签错位的情况。（但并不影响视图）  thanks for this tutorial vedio.i've tried those codes, and everything seemed fine on the surface,but when the browser rendered, i found the <link> and <meta>  elements moved from the head to the body. i've tried to save file with utf-8 with bom,but still doesn't work, i don't know why.     
+> re1&2: 
 > 检查后发现并不是浏览器渲染问题，因code中字符出错导致渲染出错。  
 
 ---
