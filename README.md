@@ -9,8 +9,8 @@
 - 缺点：
 技术和时间有限导致过于简陋，信息展板参考企业官网。
 - 资料：
-    需要准备的是一个icon
-    ![iconpic](picture/icon.ico "shilren's zone")
+    需要准备的是一个icon  
+    ![iconpic](picture/icon.ico "shilren's zone")  
     准备一个背景图
     ![backgroundpic](./picture/bule%20water.jpeg)
 ---
