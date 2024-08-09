@@ -165,3 +165,149 @@
 }
 
 /* 第三页data */
+.datapage .header{
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+padding: 0;
+margin: 0;
+}
+.datapage .datamain{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.datapage .datamain .tableau{
+    width: 50%;
+    margin: 30px 0px 30px 70px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.datapage .datamain .powerbi{
+    width: 50%;
+    margin: 30px 70px 30px 0px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.datapage .datamain .tableau img{
+    object-fit: cover;
+    width: 500px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.datapage .datamain .powerbi img{
+    object-fit:fill;
+    width: 500px;
+    height: 330px;
+    display: block;
+    margin: auto;
+}
+.datapage .datamain .tableau .text{
+    padding-top: 30px;
+    margin: auto;
+    width: 500px;
+}
+.datapage .datamain .powerbi .text{
+    margin: auto;
+    width: 500px;
+}
+.datapage .datamain .tableau .text h2{
+    line-height: 50px;
+}
+.datapage .datamain .powerbi .text h2{
+    line-height: 50px;
+}
+.datapage .datamain .tableau .text p{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.datapage .datamain .powerbi .text p{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.datapage .datamain .powerbi .text h6{
+    line-height: 20px;
+    font-weight: lighter;
+    text-align: end;
+    font-size: 14px;
+    color: rgba(69, 80, 96, 0.6);
+    margin: 0px;
+}
+/* 第四页产品 */
+.prodpage .header{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.prodpage .prodmain{
+    margin: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.prodpage .prodmain .left{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.prodpage .prodmain .right{
+    display: flex;
+    width: 50%;
+    justify-content:end;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.prodpage .prodmain .left img{
+    object-fit: cover;
+    width: 200px;
+    height: 450px;
+    display: block;
+    margin: 0;
+    padding:0;
+    filter: drop-shadow(10px 10px 50px rgba(0,0,0,0.5));   
+}
+.prodpage .prodmain .right img{
+    object-fit: cover;
+    width: 200px;
+    height: 450px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    filter: drop-shadow(10px 10px 50px rgba(0,0,0,0.5)); 
+}
+.prodpage .prodmain .left .text{
+    margin: 30px;
+    margin-left: 50px;
+    line-height: 26px;
+}
+
+.prodpage .prodmain .left .text h2{
+    line-height: 50px;
+}
+.prodpage .prodmain .left .text p{
+    font-weight: lighter;
+}
+.prodpage .prodmain .right .text{
+    margin: 330px 50px 10px 10px;
+    height: min-content;
+    align-items: end;
+    line-height: 26px;
+}
+.prodpage .prodmain .right .text h2{
+    text-indent: -20px;
+    line-height: 50px;
+}
+.prodpage .prodmain .right .text li{
+    font-weight: lighter;
+}
+/* 第五页设计*/
