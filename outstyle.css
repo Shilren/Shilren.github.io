@@ -14,6 +14,8 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 .navbar .left{
     display: flex;
@@ -44,7 +46,7 @@
 }
 .navbar ul li a{
     padding: 0px;
-    color: black;
+    color: rgb(57, 66, 80);
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -89,7 +91,7 @@
     border: 1px grey solid;
     display: flex;
     background-color: aliceblue;
-    color: black;
+    color: rgb(57, 66, 80);
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 5px;
@@ -98,3 +100,68 @@
 .main a:hover{
     color:rgba(46, 202, 193, 1);
 }
+/* 第二页 */
+
+.sayhi{
+    margin: 70px 10px 10px 100px;
+    line-height: 70px;
+    font-size: 30px;
+}
+.sayhi h1{
+    font-weight: lighter;
+    color: rgb(69, 80, 96);
+}
+.intropage hr{
+        border: 0;
+        height: 1px;
+        width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+        background-image: linear-gradient(to right, rgba(38, 41, 43, 0), rgba(65, 75, 83, 0.75), rgba(38, 41, 43, 0));
+    }
+.intromain{
+    display: flex;
+    justify-content:space-between;
+}
+.introleft{
+    margin: auto;
+    padding-top: 10px;
+}
+.intropic{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+.introleft ul{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.introtext{
+    width: 1000px;
+    margin: 50px 10px 50px 0px;
+    padding: 0px;
+
+}
+.introtext h3{
+    line-height: 28px;
+    word-spacing: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+.introtext p{
+    text-align: end;
+    padding-top: 50px;
+    margin-right: 50px;
+    font-size: 14px;
+    color: rgba(69, 80, 96, 0.6);
+}
+
+/* 第三页data */
