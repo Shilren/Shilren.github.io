@@ -474,11 +474,12 @@ margin: 0;
     /* 修改导航 */
     .navbar{
         width: 100%;
+        overflow:scroll;
     }
     .navbar .home{
         line-height: 30px;
         height: 60px; 
-        width: fit-content;
+        width: 40%;
     }
     .navbar ul li a{
         padding: 0px;
@@ -559,6 +560,7 @@ margin: 0;
             display: flex;
             flex-direction: column;
             margin: auto;
+            width: 90%;
         }
         .desipage .desimain .left{
             width: 100%;
