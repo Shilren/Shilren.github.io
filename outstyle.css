@@ -7,7 +7,7 @@
 }
 
 .navbar{
-    background-color: rgba(240, 248, 255, 0.74);
+    background-color: rgb(240, 248, 255);
     margin: 0px;
     border: 0px;
     padding:0px;
@@ -62,7 +62,7 @@
     color: aliceblue;
 }
 .main{
-    height: 720px;
+    height: 680px;
     background-image:url("./picture/bule\ water.jpeg");
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
 .main a:hover{
     color:rgba(46, 202, 193, 1);
 }
-/* 第二页 */
+/* 第二页自我介绍 */
 
 .sayhi{
     margin: 70px 10px 10px 100px;
@@ -144,10 +144,9 @@
 }
 
 .introtext{
-    width: 1000px;
+    width: 70%;
     margin: 50px 10px 50px 0px;
     padding: 0px;
-
 }
 .introtext h3{
     line-height: 28px;
@@ -174,7 +173,7 @@ padding: 0;
 margin: 0;
 }
 .datapage .datamain{
-    margin: 0;
+    margin: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -192,27 +191,27 @@ margin: 0;
 }
 .datapage .datamain .tableau img{
     object-fit: cover;
-    width: 500px;
-    height: 350px;
+    width: 80%;
+    height: 65%;
     display: block;
     margin: auto;
     padding-top: 50px;
 }
 .datapage .datamain .powerbi img{
     object-fit:fill;
-    width: 500px;
-    height: 330px;
+    width: 80%;
+    height: 65%;
     display: block;
     margin: auto;
 }
 .datapage .datamain .tableau .text{
     padding-top: 30px;
     margin: auto;
-    width: 500px;
+    width: 80%;
 }
 .datapage .datamain .powerbi .text{
     margin: auto;
-    width: 500px;
+    width: 80%;
 }
 .datapage .datamain .tableau .text h2{
     line-height: 50px;
@@ -270,8 +269,8 @@ margin: 0;
 }
 .prodpage .prodmain .left img{
     object-fit: cover;
-    width: 200px;
-    height: 450px;
+    width: 30%;
+    height: fit-content;
     display: block;
     margin: 0;
     padding:0;
@@ -279,8 +278,8 @@ margin: 0;
 }
 .prodpage .prodmain .right img{
     object-fit: cover;
-    width: 200px;
-    height: 450px;
+    width: 30%;
+    height: fit-content;
     display: block;
     margin: 0px;
     padding: 0px;
@@ -336,10 +335,10 @@ margin: 0;
     margin-top: 0px;
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-style: solid;
     border-color:  #137cdfdd;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     border-width: 3px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -347,28 +346,30 @@ margin: 0;
 }
 .desipage .desimain .left{
     width: 50%;
+    height: 80%;
     display: flex;
     justify-content: space-between
 }
 .desipage .desimain .left .one{
-margin: auto;
-color: aliceblue;
-text-align: center;
-line-height: 35px;
-filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
+    margin: 10px;
+    width:50%;
+    color: aliceblue;
+    text-align: center;
+    line-height: 35px;
+    filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
 }
 .desipage .desimain .left .one img{
-    width: 180px;
-    height: 400px;
+    width: 50%;
+    height: fit-content;
 }
 
 
 /* scroll-container 需要与scroll-page配合使用 */
 .desipage .desimain .left scroll-container{
     display: block;
-    margin: auto;
-    width: 190px;
-    height: 440px;
+    margin: 10px;
+    width: 32%;
+    height: 500px;
     overflow-y: scroll;
     scroll-behavior: smooth;
     filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
@@ -378,12 +379,15 @@ filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
     align-items: center;
     justify-content: center;
     width: 100%;
+    object-fit: fill;
 }
 /* 第五页右边 */
 .desipage .desimain .right{
     width: 50%;
+    height: fit-content;
     margin-left:  100px;
-    padding-top:50px ;
+    padding-top:50px;
+    margin-bottom: 0px;
     text-align: center;
     filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
    
@@ -391,8 +395,8 @@ filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
 .desipage .desimain .right scroll-container{
     display: block;
     margin: auto;
-    width: 300px;
-    height: 380px;
+    width: 40%;
+    height: 350px;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -439,18 +443,19 @@ filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
     text-align: center;
 }
 .progpage .progmain .sepline{
-    width: 3px;
+    width: 0.2%;
     height: 400px;
     background: linear-gradient(rgb(255, 255, 255),rgba(69, 80, 96, 0.6),rgb(255, 255, 255));
 }
 .progpage .progmain .right{
     display: flex;
     flex-direction: column;
+    margin: auto;
     width: 50%;
 }
 .progpage .progmain .right img{
     margin: 50px auto;
-    width: 100px;
+    width: 20%;
     height: fit-content;
 }
 .progpage .progmain .right h2{
@@ -464,4 +469,123 @@ filter: drop-shadow(5px 5px 5px rgb(0, 87, 180));
     font-size: 13px;
     text-align: end;
     color: rgba(79, 82, 86, 0.75)
+}
+@media screen and (max-width:700px){
+    /* 修改导航 */
+    .navbar .home{
+        line-height: 30px;
+        height: 60px; 
+        width: 50px;
+    }
+    .navbar ul li a{
+        padding: 0px;
+        color: rgb(57, 66, 80);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+        margin: auto;
+    }
+    /* 调整自我介绍页 */
+    .intromain{
+        display: flex;
+        flex-direction: column;
+    }
+    .introtext{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .introtext h3{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    /* 第三页data */
+        .datapage .datamain{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .datapage .datamain .tableau{
+            width: 100%;
+            margin: auto;
+
+        }
+        .datapage .datamain .powerbi{
+            width: 100%;
+            margin: auto;
+        }
+        /* 第四页产品页调整 */
+        .prodpage .prodmain{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .prodpage .prodmain .left{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+        }
+        .prodpage .prodmain .left .text{
+            text-align: center;
+        }
+        .prodpage .prodmain .right{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0px;
+        }
+        .prodpage .prodmain .left img{
+            width: 50%;
+            margin: auto;
+        }
+        .prodpage .prodmain .right img{
+            width: 50%;
+            margin: auto;
+        }
+        .prodpage .prodmain .right .text{
+            margin: auto;
+            height: min-content;
+            align-items: end;
+            line-height: 26px;
+        }
+        /* 第五页设计调整 */
+        .desipage .desimain{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .desipage .desimain .left{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .desipage .desimain .right{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .desipage .desimain .left .one{
+            margin: auto;
+            width:100%;
+        }
+        .desipage .desimain .left scroll-container{
+            margin: auto;
+            width: 50%;
+        }
+        /* 第六页调整 */
+        .progpage .progmain{
+            display: flex;
+            flex-direction: column;
+            margin: auto；
+        }
+        .progpage .progmain .sepline{
+            display: none;
+        }
 }
