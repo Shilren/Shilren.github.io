@@ -23,22 +23,23 @@
         </div>
 
         <ul>
-            <li class="home"><a href="#" style="color:white; ">Home</a></li>
-            <li><a href="#">Data Dnalysis</a></li>
-            <li><a href="#">Product Program</a></li>
-            <li><a href="#">Graphic Design</a></li>
-            <li><a href="#">Learning notion</a></li>
+            <li class="home"><a href="#home" style="color:white; ">Home</a></li>
+            <li><a href="#data">Data Dnalysis</a></li>
+            <li><a href="#product">Product Program</a></li>
+            <li><a href="#design">Graphic Design</a></li>
+            <li><a href="#program">Learning notion</a></li>
         </ul>
     </header>
-    <section class="main">
+    <section class="main" id="home">
         <h1 class="slogan">Welcome To Shilren's Zone</h1>
         <p>Things start from zero, with no end in sight</p>
-        <a href="">get to know me</a>
+        <a href="#self">get to know me</a>
     </section>
+    
     <!-- 自我介绍页 -->
-    <section class="intropage">
+    <section class="intropage" id="self">
         <div class="sayhi">
-            <h1>Hi,there, I am Shilren</h1>
+            <h1><br><br>Hi,there, I am Shilren</h1>
             <h1>你好，我是C潤</h1>
         </div>
         <hr>
@@ -72,9 +73,9 @@
         </div>
     </section>
     <!-- 第三页数据可视化 -->
-    <section class="datapage">
+    <section class="datapage" id="data">
         <div class="header">
-            <h1>Data Analysing Visualization<br>数据分析可视化</h1>
+            <h1><br><br>Data Analysing Visualization<br>数据分析可视化</h1>
         </div>
         <div class="datamain">
             <div class="tableau">
@@ -101,9 +102,9 @@
         </div>
     </section>
 <!-- 第四页产品 -->
-    <section class="prodpage">
+    <section class="prodpage" id="product">
         <div class="header">
-            <h1>Product Program<br>0到1的产品搭建</h1>
+            <h1><br><br>Product Program<br>0到1的产品搭建</h1>
         </div>
         <div class="prodmain">
             <div class="left">
@@ -127,9 +128,54 @@
         </div>
     </section> 
    <!--第五页设计  -->
-   <section>
-    
+   <section class="desipage" id="design">
+        <br><br>
+        <div class="header">
+            <h1>Graphic Design<br>页面设计</h1>
+        </div>
+        <div class="desimain">
+            <div class="left">
+                <div class="one">
+                    <h2>活动海报</h2>
+                    <p>OpenTalk传播物料</p>
+                    <img src="./picture/左图小下.png" title="活动报名传播长图头部截图">
+                </div>
+                <scroll-container>
+                    <scroll-page>
+                        <img src="./picture/长图+联合举办 .png" title="活动报名传播长图（全）">
+                    </scroll-page> 
+                </scroll-container>
+            </div>
+            <div class="right">
+                <scroll-container>
+                   <scroll-page>
+                    <img src="./picture/偶尔深刻.png" title="投资人小报">
+                   </scroll-page> 
+                </scroll-container>
+                <h1>海报设计</h1>
+                <p>专门为投资人投喂的每日小报</p>
+                <h6>滚动查看长图</h6>
+            </div>
+        </div>    
    </section>
+   <!-- 第六页 -->
+    <section class="progpage" id="program">
+        <div class="header">
+            <h1><br><br>Programming Language Learning<br>语言学习</h1>
+        </div>
+        <div class="progmain">
+            <div class="left">
+                <h2>Python自动化<br>Mysql<br>HTML&CSS<br>Markdown<br>Git</h2>
+            </div>
+            <div class="sepline">
+            </div>
+            <div class="right">
+                <img src="./picture/bug.svg">
+                <h2>零代码爬虫<br>WebScraper</h2>
+                <p>更多页面板块仍在开发过程中</p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
