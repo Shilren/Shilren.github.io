@@ -594,4 +594,7 @@ margin: 0;
         .progpage .progmain .sepline{
             display: none;
         }
+        .progpage .progmain .right p{
+            text-align: center;
+        }
 }
