@@ -475,6 +475,7 @@ margin: 0;
     .navbar{
         width: 100%;
         overflow:scroll;
+        position:-webkit-sticky;
     }
     .navbar .home{
         line-height: 30px;
