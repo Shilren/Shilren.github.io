@@ -476,6 +476,7 @@ margin: 0;
         width: 100%;
         overflow:scroll;
         position:sticky;
+        top:0px
     }
     .navbar .home{
         line-height: 30px;
