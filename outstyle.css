@@ -475,7 +475,7 @@ margin: 0;
     .navbar .home{
         line-height: 30px;
         height: 60px; 
-        width: 50px;
+        width: fit-content;
     }
     .navbar ul li a{
         padding: 0px;
