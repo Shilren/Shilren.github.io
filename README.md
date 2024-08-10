@@ -19,6 +19,8 @@
 2.head标签中的内容跑到body里面，导致很多渲染不成功。已经修改为utf-8 with bom 或使用notepad++保存，仍然出现渲染标签错位的情况。（但并不影响视图）  thanks for this tutorial vedio.i've tried those codes, and everything seemed fine on the surface,but when the browser rendered, i found the <link> and <meta>  elements moved from the head to the body. i've tried to save file with utf-8 with bom,but still doesn't work, i don't know why.     
 > re1&2: 
 > 检查后发现并不是浏览器渲染问题，因code中字符出错导致渲染出错。 
+  
+
 3.github托管网站需要识别index文件，倘若没有则渲染readme文件。  
 4.系统自动生成的index文件被误删，导致重命名的Index非常不稳定，时常渲染md文件，现恢复之前的文件，有一定效果，具体原因未知。  
 5.想要设置下载链接，需要先制作种子文件获取磁链接，将磁链接放入href中，而download内容为文本。  
